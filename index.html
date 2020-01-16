@@ -14,7 +14,11 @@
 body {
     background-image: url("images/background.jpg");
     background-color: rgb(95, 95, 95);
-    background-repeat:space;
+    background-repeat:no-repeat;
+    background-size:auto;
+}
+html {
+overflow-y: hidden;
 }
 </style>    
     
@@ -30,13 +34,6 @@ hr {
     overflow: hidden;
     visibility: hidden;
 }
-h1 {
-    text-align: center;
-    font-size: 100px;
-    margin-top: 10px;
-    color: rgb(255, 255, 255);
-    text-shadow: 5px 3px #000000;
-}
 .shadow {
     position: absolute;
     width: 100%;
@@ -51,7 +48,7 @@ p {
 }
 </style>
     
-    <h1 id="demo" style="font-size:3vw;margin:22%;"></h1>
+    <h1 id="demo" style="font-size:3vw;color:rgb(255, 255, 255);text-shadow: 5px 3px #000000;height:10em;margin:0;position:absolute;top:50%;left:50%;margin-right:-50%;transform:translate(-50%,-11%);"></h1>
       <script>
         // Set the date we're counting down to
         var countDownDate = new Date("Jan 17, 2020 12:00:00").getTime();
