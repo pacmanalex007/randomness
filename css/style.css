@@ -1,0 +1,255 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-y: hidden;
+
+}
+.bg-image {
+  background-image: url("../images/background.jpg"); 
+  filter: blur(8px);
+  -webkit-filter: blur(8px); 
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 34%;
+  padding: 0;
+  text-align: center;
+}
+.social-buttons {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: rgb(255, 255, 255);
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 93%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 35%;
+  padding: 0;
+  text-align: center;
+}
+.thedevil {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: blue;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 20%;
+  left: 28%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  width: 35%;
+  padding: 0;
+  text-align: center;
+}
+.thedevil-tdr {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: blue;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 27%;
+  left: 28%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  width: 35%;
+  padding: 0;
+  text-align: center;
+}
+.danger {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: blue;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 34%;
+  left: 28%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  width: 35%;
+  padding: 0;
+  text-align: center;
+}
+.fucc-christmas {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: blue;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 41%;
+  left: 28%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  width: 35%;
+  padding: 0;
+  text-align: center;
+}
+.christmas-ep {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: blue;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 48%;
+  left: 28%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  width: 35%;
+  padding: 0;
+  text-align: center;
+}
+.random-automation {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: blue;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 55%;
+  left: 28%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  width: 35%;
+  padding: 0;
+  text-align: center;
+}
+.closer {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: blue;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 62%;
+  left: 28%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  width: 35%;
+  padding: 0;
+  text-align: center;
+}
+.takeone {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: blue;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 69%;
+  left: 28%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  width: 35%;
+  padding: 0;
+  text-align: center;
+}
+.iwontquit {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: blue;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 76%;
+  left: 28%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  width: 35%;
+  padding: 0;
+  text-align: center;
+}
+.helpmeii {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: blue;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 83%;
+  left: 28%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  width: 35%;
+  padding: 0;
+  text-align: center;
+}
+
+.gov1 {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: blue;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 20%;
+  left: 72.5%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  width: 35%;
+  padding: 0;
+  text-align: center;
+}
+.gov2 {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: blue;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 27%;
+  left: 72.5%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  width: 35%;
+  padding: 0;
+  text-align: center;
+}
+.sorrowchpti {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: blue;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 34%;
+  left: 72.5%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  width: 35%;
+  padding: 0;
+  text-align: center;
+}
+.lxvelesschptii {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: blue;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 40.5%;
+  left: 72.5%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  width: 35%;
+  padding: 0;
+  text-align: center;
+}
+.moresoon {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: blue;
+    border: 6px solid #f1f1f1;
+    position: absolute;
+    top: 50.5%;
+    left: 72.5%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 20%;
+    padding: 0;
+    text-align: center;
+  }
